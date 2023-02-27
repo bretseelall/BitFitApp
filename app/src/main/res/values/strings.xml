@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BitFit</string>
+    <string name="enter_button_text">Click To Add New Food Item</string>
+    <string name="calories">Calories</string>
+    <string name="food_hint">Enter Food Name Here</string>
+    <string name="calorie_hint">Enter Number of Calories Here</string>
+    <string name="submit">Submit</string>
+    <string name="food_tx">Food:</string>
+    <string name="calories_tx">Calories:</string>
+</resources>
