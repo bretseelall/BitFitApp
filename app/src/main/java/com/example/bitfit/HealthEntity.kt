@@ -8,5 +8,5 @@ import androidx.room.PrimaryKey
 data class HealthEntity (
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     @ColumnInfo(name = "foodItem") val foodItem: String?,
-    @ColumnInfo(name = "calories") val calories: String?
+    @ColumnInfo(name = "calories") val calories: Int
         )

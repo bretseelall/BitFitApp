@@ -17,7 +17,6 @@ class HealthAdapter(private val context: Context, private val foodItem: List<Hea
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        //val context = parent.context
         val view = LayoutInflater.from(context).inflate(R.layout.health_item, parent, false)
         return ViewHolder(view)
     }
@@ -30,7 +29,7 @@ class HealthAdapter(private val context: Context, private val foodItem: List<Hea
         val foods = foodItem[position]
 
         holder.food.text = foods.food
-        holder.calories.text = foods.calories
+        holder.calories.text = foods.calories.toString()
 
     }
 }

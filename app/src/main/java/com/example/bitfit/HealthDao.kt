@@ -16,4 +16,5 @@ interface HealthDao {
 
     @Query("DELETE FROM health_table")
     fun deleteAll()
+
 }

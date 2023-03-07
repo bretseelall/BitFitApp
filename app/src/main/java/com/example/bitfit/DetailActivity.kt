@@ -23,7 +23,7 @@ class DetailActivity : AppCompatActivity() {
                 (application as HealthApplication).db.healthDao().insert(
                     HealthEntity(
                         foodItem = etFoodName.text.toString(),
-                        calories = etFoodCalories.text.toString()
+                        calories = etFoodCalories.text.toString().toInt()
                     )
                 )
             }
